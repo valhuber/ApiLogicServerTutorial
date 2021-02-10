@@ -1,5 +1,5 @@
 # ApiLogicServerTutorial
-Jupyter Lab Notebook for API Logic Server
+Jupyter Lab Notebook for [API Logic Server](https://github.com/valhuber/ApiLogicServer#readme).
 
 Under Construction
 
