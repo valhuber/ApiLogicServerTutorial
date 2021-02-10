@@ -7,7 +7,7 @@ Intended for mybinder.
 
 To run locally:
 ```
-git clone
+git clone https://github.com/valhuber/ApiLogicServerTutorial.git
 cd ApiLogicServerTutorial
 virtualenv venv
 source venv/bin/activate
