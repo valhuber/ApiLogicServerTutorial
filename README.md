@@ -12,5 +12,6 @@ cd ApiLogicServerTutorial
 virtualenv venv
 source venv/bin/activate
 pip install ApiLogicServer
+pip install jupyterlab
 jupyter lab
 ```
