@@ -1,1 +1,2 @@
 ApiLogicServer
+jupyterlab==3.0.7
