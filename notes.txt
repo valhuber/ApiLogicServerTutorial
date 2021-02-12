@@ -233,17 +233,27 @@ Suggested
 
 https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-6easlb4a/proxy/5000/
 
-https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e/proxy/5000 - not found
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-tyc6zhvz/proxy/5000 - not found
 
-https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e/proxy:5000 - ng
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-tyc6zhvz/proxy:5000 - nf
 
-https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e:5000 - forbidden
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-tyc6zhvz:5000 - forbidden
+
+tyc6zhvz
 
 Binder link: https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/ec186fe7008b580d3fc9775e52c504aea71ef48c
 
 https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/ec186fe7008b580d3fc9775e52c504aea71ef48c/proxy/5000
 
+
+
 or proxy:5000, or no proxy
 
-Based on notebook url:
-https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e/lab/tree/ApiLogicServerTutorial.ipynb
+curl -X GET "http://localhost:5000/Customer/\
+?include=CustomerCustomerDemoList%2COrderList%2COrderZList\
+&fields%5BCustomer%5D=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount\
+&page%5Boffset%5D=0\
+&page%5Blimit%5D=10\
+&sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid"\
+-H  "accept: application/vnd.api+json"\
+-H  "Content-Type: application/vnd.api+json"
