@@ -18,227 +18,213 @@ https://notebooks.gesis.org/gallery/gesisbinder/24h/
 
 https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/c1b1d20e269b40afd9bb74a6677e95716eb4a898
 
+bash     bzip2         dash           egrep     kill      lsblk          pidof      sh          true          zcmp
+bunzip2  bzip2recover  date           false     less      mkdir          ps         sh.distrib  umount        zdiff
+bzcat    bzless        dd             fgrep     lessecho  mknod          pwd        sleep       uname         zegrep
+bzcmp    bzmore        df             findmnt   lessfile  mktemp         rbash      stty        uncompress    zfgrep
+bzdiff   cat           dir            grep      lesskey   more           readlink   su          vdir          zforce
+bzegrep  chgrp         dmesg          gunzip    lesspipe  mount          rm         sync        wdctl         zgrep
+bzexe    chmod         dnsdomainname  gzexe     ln        mountpoint     rmdir      tar         which         zless
+bzfgrep  chown         domainname     gzip      login     mv             run-parts  tempfile    ypdomainname  zmore
+bzgrep   cp            echo           hostname  ls        nisdomainname  sed        touch       zcat          znew
+jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/bin$
 
-Server pip freeze
 
-  alembic==1.4.2
-  aniso8601==8.1.1
-  ApiLogicServer==1.4.5
-  apispec==3.3.2
-  async-generator==1.10
-  attrs==19.3.0
-  Babel==2.9.0
-  backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-  bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
-  blinker==1.4
-  brotlipy==0.7.0
-  certifi==2020.6.20
-  certipy==0.1.3
-  cffi==1.14.0
-  chardet==3.0.4
-  click==7.1.2
-  colorama==0.4.4
-  cryptography==3.4.4
-  decorator==4.4.2
-  defusedxml==0.6.0
-  dnspython==2.1.0
-  email-validator==1.1.1
-  entrypoints==0.3
-  Flask==1.1.2
-  Flask-Admin==1.5.7
-  Flask-AppBuilder==3.1.1
-  Flask-Babel==1.0.0
-  Flask-Cors==3.0.0
-  Flask-JWT-Extended==3.25.0
-  Flask-Login==0.4.1
-  Flask-OpenID==1.2.5
-  Flask-RESTful==0.3.8
-  flask-restful-swagger-2==0.35
-  Flask-SQLAlchemy==2.4.4
-  flask-swagger-ui==3.36.0
-  Flask-WTF==0.14.3
-  idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
-  importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1593211370946/work
-  inflect==5.0.2
-  ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1595446881062/work/dist/ipykernel-5.3.4-py3-none-any.whl
-  ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1593235467607/work
-  ipython-genutils==0.2.0
-  ipywidgets==7.5.1
-  itsdangerous==1.1.0
-  jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1595018901065/work
-  Jinja2==2.11.2
-  json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1591810480056/work
-  jsonschema==3.2.0
-  jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1594732094290/work
-  jupyter-core==4.6.3
-  jupyter-offlinenotebook==0.1.0
-  jupyter-telemetry==0.0.5
-  jupyterhub==1.1.0
-  jupyterlab==2.2.0
-  jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1593951277307/work
-  logicbank==0.9.2
-  logicbankutils==0.6.0
-  Mako==1.1.0
-  MarkupSafe==1.1.1
-  marshmallow==3.10.0
-  marshmallow-enum==1.5.1
-  marshmallow-sqlalchemy==0.23.1
-  mistune==0.8.4
-  nbconvert==5.6.1
-  nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
-  nbresuse==0.3.3
-  notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1594078840609/work
-  nteract-on-jupyter==2.1.3
-  oauthlib==3.0.1
-  packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
-  pamela==1.0.0
-  pandocfilters==1.4.2
-  parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1595548966091/work
-  pexpect==4.8.0
-  pickleshare==0.7.5
-  prison==0.1.3
-  prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
-  prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1592500439797/work
-  psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1594826931824/work
-  ptyprocess==0.6.0
-  pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-  pycurl==7.43.0.5
-  Pygments==2.6.1
-  PyJWT==1.7.1
-  PyMySQL==1.0.2
-  pyOpenSSL==19.1.0
-  pyparsing==2.4.7
-  pyrsistent==0.16.0
-  PySocks==1.7.1
-  python-dateutil==2.8.1
-  python-dotenv==0.15.0
-  python-editor==1.0.4
-  python-json-logger==0.1.11
-  python3-openid==3.2.0
-  pytz==2021.1
-  PyYAML==5.4.1
-  pyzmq==19.0.1
-  requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1592425495151/work
-  ruamel.yaml==0.16.6
-  ruamel.yaml.clib==0.2.0
-  safrs==2.11.1
-  Send2Trash==1.5.0
-  six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
-  SQLAlchemy==1.3.20
-  SQLAlchemy-Utils==0.36.8
-  terminado==0.8.3
-  testpath==0.4.4
-  tornado==6.0.4
-  traitlets==4.3.3
-  urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1595434816409/work
-  wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1592931742287/work
-  webencodings==0.5.1
-  Werkzeug==1.0.1
-  widgetsnbextension @ file:///home/conda/feedstock_root/build_artifacts/widgetsnbextension_1594164345747/work
-  WTForms==2.3.3
-  zipp==3.1.0
-  jovyan@jupyter-valhuber-2dapilogicservertutorial-2d0iz1h8cg:~$
-
-local pip freeze
-  aniso8601==8.1.1
-  anyio==2.1.0
-  ApiLogicServer==1.4.5
-  apispec==3.3.2
-  appnope==0.1.2
-  argon2-cffi==20.1.0
-  async-generator==1.10
-  attrs==20.3.0
-  Babel==2.9.0
-  backcall==0.2.0
-  bleach==3.3.0
-  certifi==2020.12.5
-  cffi==1.14.4
-  chardet==4.0.0
-  click==7.1.2
-  colorama==0.4.4
-  cryptography==3.4.4
-  decorator==4.4.2
-  defusedxml==0.6.0
-  dnspython==2.1.0
-  email-validator==1.1.1
-  entrypoints==0.3
-  Flask==1.1.2
-  Flask-Admin==1.5.7
-  Flask-AppBuilder==3.1.1
-  Flask-Babel==1.0.0
-  Flask-Cors==3.0.0
-  Flask-JWT-Extended==3.25.0
-  Flask-Login==0.4.1
-  Flask-OpenID==1.2.5
-  Flask-RESTful==0.3.8
-  flask-restful-swagger-2==0.35
-  Flask-SQLAlchemy==2.4.4
-  flask-swagger-ui==3.36.0
-  Flask-WTF==0.14.3
-  idna==2.10
-  inflect==5.0.2
-  ipykernel==5.4.3
-  ipython==7.20.0
-  ipython-genutils==0.2.0
-  itsdangerous==1.1.0
-  jedi==0.18.0
-  Jinja2==2.11.3
-  json5==0.9.5
-  jsonschema==3.2.0
-  jupyter-client==6.1.11
-  jupyter-core==4.7.1
-  jupyter-server==1.3.0
-  jupyterlab==3.0.7
-  jupyterlab-pygments==0.1.2
-  jupyterlab-server==2.2.0
-  logicbank==0.9.2
-  logicbankutils==0.6.0
-  MarkupSafe==1.1.1
-  marshmallow==3.10.0
-  marshmallow-enum==1.5.1
-  marshmallow-sqlalchemy==0.23.1
-  mistune==0.8.4
-  nbclassic==0.2.6
-  nbclient==0.5.2
-  nbconvert==6.0.7
-  nbformat==5.1.2
-  nest-asyncio==1.5.1
-  notebook==6.2.0
-  packaging==20.9
-  pandocfilters==1.4.3
-  parso==0.8.1
-  pexpect==4.8.0
-  pickleshare==0.7.5
-  prison==0.1.3
-  prometheus-client==0.9.0
-  prompt-toolkit==3.0.15
-  ptyprocess==0.7.0
-  pycparser==2.20
-  Pygments==2.7.4
-  PyJWT==1.7.1
-  PyMySQL==1.0.2
-  pyparsing==2.4.7
-  pyrsistent==0.17.3
-  python-dateutil==2.8.1
-  python-dotenv==0.15.0
-  python3-openid==3.2.0
-  pytz==2021.1
-  PyYAML==5.4.1
-  pyzmq==22.0.2
-  requests==2.25.1
-  safrs==2.11.1
-  Send2Trash==1.5.0
-  six==1.15.0
-  sniffio==1.2.0
-  SQLAlchemy==1.3.20
-  SQLAlchemy-Utils==0.36.8
-  terminado==0.9.2
-  testpath==0.4.4
-  tornado==6.1
-  traitlets==5.0.5
-  urllib3==1.26.3
-  wcwidth==0.2.5
-  webencodings==0.5.1
-  Werkzeug==1.0.1
-  WTForms==2.3.3
-  (venv) val@Vals-Mac
+jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$ ls
+'['                               glib-compile-schemas               pygettext3
+ 2to3-2.7                         glib-genmarshal                    pygettext3.6
+ aclocal                          glib-gettextize                    python
+ aclocal-1.15                     glib-mkenums                       python2
+ addpart                          gobject-query                      python2.7
+ addr2line                        gold                               python3
+ animate                          gpasswd                            python3.6
+ animate-im6                      gpg                                python3.6m
+ animate-im6.q16                  gpg-agent                          python3m
+ apt                              gpgconf                            pyversions
+ apt-cache                        gpg-connect-agent                  ranlib
+ apt-cdrom                        gpgparsemail                       rcp
+ apt-config                       gpgsm                              readelf
+ apt-get                          gpgsplit                           realpath
+ apt-key                          gpgv                               rename.ul
+ apt-mark                         gpg-wks-server                     renice
+ ar                               gpg-zip                            reset
+ arch                             gprof                              resizepart
+ as                               gresource                          rev
+ autoconf                         groups                             rgrep
+ autoheader                       gsettings                          rlogin
+ autom4te                         gtester                            rpcgen
+ automake                         gtester-report                     rsh
+ automake-1.15                    h2ph                               runcon
+ autoreconf                       h2xs                               run-mailcap
+ autoscan                         head                               savelog
+ autoupdate                       hg                                 scp
+ awk                              hg-ssh                             script
+ b2sum                            hostid                             scriptreplay
+ base32                           i386                               sdiff
+ base64                           iconv                              see
+ basename                         icu-config                         select-editor
+ bashbug                          icuinfo                            sensible-browser
+ bzr                              id                                 sensible-editor
+ bzr.bzr                          identify                           sensible-pager
+ c++                              identify-im6                       seq
+ c89                              identify-im6.q16                   setarch
+ c89-gcc                          ifnames                            setsid
+ c99                              import                             setterm
+ c99-gcc                          import-im6                         sftp
+ captoinfo                        import-im6.q16                     sg
+ catchsegv                        infocmp                            sha1sum
+ cautious-launcher                infotocap                          sha224sum
+ cc                               install                            sha256sum
+ c++filt                          instmodsh                          sha384sum
+ chage                            ionice                             sha512sum
+ chattr                           ipcmk                              shasum
+ chcon                            ipcrm                              shred
+ chfn                             ipcs                               shuf
+ chrt                             ischroot                           size
+ chsh                             join                               skill
+ cksum                            json_pp                            slabtop
+ clear                            kbxutil                            slogin
+ clear_console                    krb5-config                        snice
+ cmp                              krb5-config.mit                    sort
+ comm                             last                               sotruss
+ compare                          lastb                              splain
+ compare-im6                      lastlog                            split
+ compare-im6.q16                  lcf                                sprof
+ compile_et                       ld                                 ssh
+ compose                          ld.bfd                             ssh-add
+ composite                        ldd                                ssh-agent
+ composite-im6                    ld.gold                            ssh-argv0
+ composite-im6.q16                less                               ssh-copy-id
+ conjure                          lessecho                           ssh-keygen
+ conjure-im6                      lessfile                           ssh-keyscan
+ conjure-im6.q16                  lesskey                            stat
+ convert                          lesspipe                           stdbuf
+ convert-im6                      libnetcfg                          stream
+ convert-im6.q16                  libpng16-config                    stream-im6
+ corelist                         libpng-config                      stream-im6.q16
+ cpan                             libtoolize                         strings
+ cpan5.26-x86_64-linux-gnu        libwmf-config                      strip
+ cpp                              link                               sum
+ cpp-7                            linux32                            svn
+ c_rehash                         linux64                            svnadmin
+ csplit                           locale                             svnauthz
+ curl                             locale-check                       svnauthz-validate
+ curl-config                      localedef                          svnbench
+ cut                              logger                             svndumpfilter
+ debconf                          logname                            svnfsfs
+ debconf-apt-progress             lsattr                             svnlook
+ debconf-communicate              lscpu                              svnmucc
+ debconf-copydb                   lsipc                              svnrdump
+ debconf-escape                   lslocks                            svnserve
+ debconf-set-selections           lslogins                           svnsync
+ debconf-show                     lsmem                              svnversion
+ deb-systemd-helper               lsns                               symcryptrun
+ deb-systemd-invoke               lspgpot                            tabs
+ delpart                          lzcat                              tac
+ derb                             lzcmp                              tail
+ dh_autotools-dev_restoreconfig   lzdiff                             taskset
+ dh_autotools-dev_updateconfig    lzegrep                            tee
+ dh_python2                       lzfgrep                            test
+ diff                             lzgrep                             tic
+ diff3                            lzless                             timeout
+ dircolors                        lzma                               tload
+ dirmngr                          lzmainfo                           toe
+ dirmngr-client                   lzmore                             top
+ dirname                          m4                                 touch
+ display                          make                               tput
+ display-im6                      makeconv                           tr
+ display-im6.q16                  make-first-existing-target         truncate
+ dpkg                             mawk                               tset
+ dpkg-architecture                mcookie                            tsort
+ dpkg-buildflags                  md5sum                             tty
+ dpkg-buildpackage                md5sum.textutils                   tzselect
+ dpkg-checkbuilddeps              mesg                               ucf
+ dpkg-deb                         migrate-pubring-from-classic-gpg   ucfq
+ dpkg-distaddfile                 mkfifo                             ucfr
+ dpkg-divert                      mogrify                            uconv
+ dpkg-genbuildinfo                mogrify-im6                        unexpand
+ dpkg-genchanges                  mogrify-im6.q16                    uniq
+ dpkg-gencontrol                  montage                            unlink
+ dpkg-gensymbols                  montage-im6                        unlzma
+ dpkg-maintscript-helper          montage-im6.q16                    unshare
+ dpkg-mergechangelogs             mtrace                             unxz
+ dpkg-name                        mysql_config                       unzip
+ dpkg-parsechangelog              namei                              unzipsfx
+ dpkg-query                       nawk                               update-alternatives
+ dpkg-scanpackages                ncurses5-config                    update-mime-database
+ dpkg-scansources                 ncursesw5-config                   uptime
+ dpkg-shlibdeps                   newgrp                             users
+ dpkg-source                      nice                               utmpdump
+ dpkg-split                       nl                                 vmstat
+ dpkg-statoverride                nm                                 w
+ dpkg-trigger                     node                               wall
+ dpkg-vendor                      nodejs                             watch
+ du                               nohup                              watchgnupg
+ dwp                              npm                                wc
+ edit                             nproc                              wget
+ elfedit                          npx                                whereis
+ enc2xs                           nsenter                            which
+ encguess                         numfmt                             who
+ env                              objcopy                            whoami
+ expand                           objdump                            w.procps
+ expiry                           od                                 X11
+ expr                             openssl                            x86_64
+ factor                           pager                              x86_64-linux-gnu-addr2line
+ faillog                          partx                              x86_64-linux-gnu-ar
+ fallocate                        passwd                             x86_64-linux-gnu-as
+ fc-cache                         paste                              x86_64-linux-gnu-c++filt
+ fc-cat                           patch                              x86_64-linux-gnu-cpp
+ fc-list                          pathchk                            x86_64-linux-gnu-cpp-7
+ fc-match                         pcre-config                        x86_64-linux-gnu-dwp
+ fc-pattern                       pdb                                x86_64-linux-gnu-elfedit
+ fc-query                         pdb2.7                             x86_64-linux-gnu-g++
+ fc-scan                          pdb3                               x86_64-linux-gnu-g++-7
+ fc-validate                      pdb3.6                             x86_64-linux-gnu-gcc
+ file                             perl                               x86_64-linux-gnu-gcc-7
+ find                             perl5.26.1                         x86_64-linux-gnu-gcc-ar
+ flock                            perl5.26-x86_64-linux-gnu          x86_64-linux-gnu-gcc-ar-7
+ fmt                              perlbug                            x86_64-linux-gnu-gcc-nm
+ fold                             perldoc                            x86_64-linux-gnu-gcc-nm-7
+ free                             perlivp                            x86_64-linux-gnu-gcc-ranlib
+ freetype-config                  perlthanks                         x86_64-linux-gnu-gcc-ranlib-7
+ funzip                           pg_config                          x86_64-linux-gnu-gcov
+ g++                              pgrep                              x86_64-linux-gnu-gcov-7
+ g++-7                            piconv                             x86_64-linux-gnu-gcov-dump
+ gapplication                     pinentry                           x86_64-linux-gnu-gcov-dump-7
+ gcc                              pinentry-curses                    x86_64-linux-gnu-gcov-tool
+ gcc-7                            pinky                              x86_64-linux-gnu-gcov-tool-7
+ gcc-ar                           pkg-config                         x86_64-linux-gnu-gold
+ gcc-ar-7                         pkgdata                            x86_64-linux-gnu-gprof
+ gcc-nm                           pkill                              x86_64-linux-gnu-ld
+ gcc-nm-7                         pl2pm                              x86_64-linux-gnu-ld.bfd
+ gcc-ranlib                       pldd                               x86_64-linux-gnu-ld.gold
+ gcc-ranlib-7                     pmap                               x86_64-linux-gnu-nm
+ gcov                             pod2html                           x86_64-linux-gnu-objcopy
+ gcov-7                           pod2man                            x86_64-linux-gnu-objdump
+ gcov-dump                        pod2text                           x86_64-linux-gnu-pkg-config
+ gcov-dump-7                      pod2usage                          x86_64-linux-gnu-ranlib
+ gcov-tool                        podchecker                         x86_64-linux-gnu-readelf
+ gcov-tool-7                      podselect                          x86_64-linux-gnu-size
+ gdbus                            pr                                 x86_64-linux-gnu-strings
+ gdbus-codegen                    print                              x86_64-linux-gnu-strip
+ gdk-pixbuf-csource               printenv                           x86_64-pc-linux-gnu-pkg-config
+ gdk-pixbuf-pixdata               printf                             xargs
+ gdk-pixbuf-query-loaders         prlimit                            xml2-config
+ genbrk                           prove                              xslt-config
+ gencat                           ptar                               xsubpp
+ gencfu                           ptardiff                           xz
+ gencnval                         ptargrep                           xzcat
+ gendict                          ptx                                xzcmp
+ genrb                            pwdx                               xzdiff
+ getconf                          py3clean                           xzegrep
+ getent                           py3compile                         xzfgrep
+ getopt                           py3versions                        xzgrep
+ gio                              pyclean                            xzless
+ gio-querymodules                 pycompile                          xzmore
+ git                              pydoc                              yes
+ git-receive-pack                 pydoc2.7                           zdump
+ git-shell                        pydoc3                             zipdetails
+ git-upload-archive               pydoc3.6                           zipgrep
+ git-upload-pack                  pygettext                          zipinfo
+ glib-compile-resources           pygettext2.7
+jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$ 
