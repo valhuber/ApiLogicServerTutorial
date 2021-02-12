@@ -227,4 +227,23 @@ jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$ ls
  git-upload-archive               pydoc3.6                           zipgrep
  git-upload-pack                  pygettext                          zipinfo
  glib-compile-resources           pygettext2.7
-jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$ 
+jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$
+
+Suggested
+
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-6easlb4a/proxy/5000/
+
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e/proxy/5000 - not found
+
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e/proxy:5000 - ng
+
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e:5000 - forbidden
+
+Binder link: https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/ec186fe7008b580d3fc9775e52c504aea71ef48c
+
+https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/ec186fe7008b580d3fc9775e52c504aea71ef48c/proxy/5000
+
+or proxy:5000, or no proxy
+
+Based on notebook url:
+https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-82qims8e/lab/tree/ApiLogicServerTutorial.ipynb
