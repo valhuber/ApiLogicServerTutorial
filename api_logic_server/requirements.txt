@@ -1,0 +1,14 @@
+Flask
+Flask-Admin
+python-dateutil
+python-dotenv
+SQLAlchemy
+SQLAlchemy-Utils
+six
+email-validator
+LogicBank>=0.9.0
+safrs>=2.11.1
+logicbankutils
+flask-appbuilder
+PyMySQL
+cryptography
