@@ -5,4 +5,4 @@ jupyter-server-proxy
 widgetsnbextension
 @jupyter-widgets/jupyterlab-manager
 ipywidgets
-jupyter_contrib_nbextensions
+# jupyter_contrib_nbextensions
