@@ -270,6 +270,8 @@ curl -X GET "http://localhost:5000/Customer\
 
 
  startup??
+  https://github.com/jupyterlab/jupyterlab-demo/tree/master/binder
+  https://github.com/martinRenou/ipycanvas/issues/95
  Step 43/47 : RUN chmod +x binder/postBuild
  ---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
  ---> Running in 127ec3dcb32b
@@ -280,14 +282,18 @@ Step 44/47 : RUN ./binder/postBuild
  ---> Running in 89e21dfaf93d
 + jupyter lab workspaces import binder/workspace.json
 
-
-startup without binder/
----> Running in 81c14afcaec3
-Removing intermediate container 81c14afcaec3
----> 9c6d7c7b6a51
-Step 44/47 : RUN ./binder/postBuild
 ---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
----> Running in a07e0edf67d1
-+ jupyter lab workspaces import workspace.json
-workspace.json does not exist.
-Removing intermediate container....
+---> Running in 5311283a96ac
+Removing intermediate container 5311283a96ac
+---> b4c082c69aec
+Step 47/47 : CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
+---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+---> Running in 2f017db86080
+Removing intermediate container 2f017db86080
+---> 47059c9c0836
+{"aux": {"ID": "sha256:47059c9c0836373d0060d3a2b65426fb356bb9fe6362bd746aa432fc23feb512"}}Successfully built 47059c9c0836
+Successfully tagged gesiscss/binder-valhuber-2dapilogicservertutorial-fe8dc3:dba51df8ffadc16d6b0282516aaf4dd653f9c3b5
+Pushing image
+Pushing image
+Pushing image
+Pushing image
