@@ -249,11 +249,33 @@ https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/ec186fe
 
 or proxy:5000, or no proxy
 
-curl -X GET "http://localhost:5000/Customer/\
-?include=CustomerCustomerDemoList%2COrderList%2COrderZList\
-&fields%5BCustomer%5D=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount\
+curl -X GET "http://localhost:5000/Customer/?include=CustomerCustomerDemoList%2COrderList%2COrderZList&fields%5BCustomer%5D=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount&page%5Boffset%5D=0&page%5Blimit%5D=10&sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid" -H  "accept: application/vnd.api+json" -H  "Content-Type: application/vnd.api+json"
+
+curl -X GET "http://localhost:5000/Customer\
+?fields%5BCustomer%5D=Id%2CCompanyName%Balance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount\
 &page%5Boffset%5D=0\
-&page%5Blimit%5D=10\
+&page%5Blimit%5D=3\
 &sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid"\
--H  "accept: application/vnd.api+json"\
--H  "Content-Type: application/vnd.api+json"
+ -H  "accept: application/vnd.api+json" \
+ -H  "Content-Type: application/vnd.api+json"
+
+curl -X GET "http://localhost:5000/Customer\
+?include=OrderList\
+&fields%5BCustomer%5D=Id%2CCompanyName%Balance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount\
+&page%5Boffset%5D=0\
+&page%5Blimit%5D=3\
+&sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid"\
+ -H  "accept: application/vnd.api+json" \
+ -H  "Content-Type: application/vnd.api+json"
+
+
+ startup??
+ Step 43/47 : RUN chmod +x binder/postBuild
+ ---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+ ---> Running in 127ec3dcb32b
+Removing intermediate container 127ec3dcb32b
+ ---> d7884c98d539
+Step 44/47 : RUN ./binder/postBuild
+ ---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+ ---> Running in 89e21dfaf93d
++ jupyter lab workspaces import binder/workspace.json
