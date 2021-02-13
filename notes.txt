@@ -279,3 +279,15 @@ Step 44/47 : RUN ./binder/postBuild
  ---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
  ---> Running in 89e21dfaf93d
 + jupyter lab workspaces import binder/workspace.json
+
+
+startup without binder/
+---> Running in 81c14afcaec3
+Removing intermediate container 81c14afcaec3
+---> 9c6d7c7b6a51
+Step 44/47 : RUN ./binder/postBuild
+---> [Warning] Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+---> Running in a07e0edf67d1
++ jupyter lab workspaces import workspace.json
+workspace.json does not exist.
+Removing intermediate container....

@@ -4,5 +4,5 @@ set -ex
 
 
 # Setup a workspace
-jupyter lab workspaces import workspace.json
-# jupyter lab workspaces import binder/workspace.json
+# jupyter lab workspaces import workspace.json  -- failed
+jupyter lab workspaces import binder/workspace.json
