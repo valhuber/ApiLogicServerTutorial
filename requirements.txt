@@ -3,6 +3,6 @@ jupyterlab==3.0.7
 jupyter-offlinenotebook
 jupyter-server-proxy
 widgetsnbextension
-@jupyter-widgets/jupyterlab-manager
+@jupyter-widgets/jupyterlab-manager==0.38.0
 ipywidgets
 # jupyter_contrib_nbextensions
