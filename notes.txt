@@ -1,233 +1,8 @@
-https://gesis.mybinder.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/c1b1d20e269b40afd9bb74a6677e95716eb4a898
+No pre-open
+  https://github.com/jupyterlab/jupyterlab/issues/9795
 
-https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD/lab
+No Browser access to proxy
 
-https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD?urlpath=lab/tree
-
-https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD?urlpath=lab
-
-/binder/jupyter/user/valhuber-apilogicservertutorial-wcy5q9db/
-
-https://notebooks.gesis.org/binder/jupyter/user/valhuber-apilogicservertutorial-a2p5ru7j/tree
-
-https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/c1b1d20e269b40afd9bb74a6677e95716eb4a898
-
-https://mybinder.org/v2/gh/norvig/pytudes/master?urlpath=lab/tree/ipynb
-
-https://notebooks.gesis.org/gallery/gesisbinder/24h/
-
-https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/c1b1d20e269b40afd9bb74a6677e95716eb4a898
-
-bash     bzip2         dash           egrep     kill      lsblk          pidof      sh          true          zcmp
-bunzip2  bzip2recover  date           false     less      mkdir          ps         sh.distrib  umount        zdiff
-bzcat    bzless        dd             fgrep     lessecho  mknod          pwd        sleep       uname         zegrep
-bzcmp    bzmore        df             findmnt   lessfile  mktemp         rbash      stty        uncompress    zfgrep
-bzdiff   cat           dir            grep      lesskey   more           readlink   su          vdir          zforce
-bzegrep  chgrp         dmesg          gunzip    lesspipe  mount          rm         sync        wdctl         zgrep
-bzexe    chmod         dnsdomainname  gzexe     ln        mountpoint     rmdir      tar         which         zless
-bzfgrep  chown         domainname     gzip      login     mv             run-parts  tempfile    ypdomainname  zmore
-bzgrep   cp            echo           hostname  ls        nisdomainname  sed        touch       zcat          znew
-jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/bin$
-
-
-jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$ ls
-'['                               glib-compile-schemas               pygettext3
- 2to3-2.7                         glib-genmarshal                    pygettext3.6
- aclocal                          glib-gettextize                    python
- aclocal-1.15                     glib-mkenums                       python2
- addpart                          gobject-query                      python2.7
- addr2line                        gold                               python3
- animate                          gpasswd                            python3.6
- animate-im6                      gpg                                python3.6m
- animate-im6.q16                  gpg-agent                          python3m
- apt                              gpgconf                            pyversions
- apt-cache                        gpg-connect-agent                  ranlib
- apt-cdrom                        gpgparsemail                       rcp
- apt-config                       gpgsm                              readelf
- apt-get                          gpgsplit                           realpath
- apt-key                          gpgv                               rename.ul
- apt-mark                         gpg-wks-server                     renice
- ar                               gpg-zip                            reset
- arch                             gprof                              resizepart
- as                               gresource                          rev
- autoconf                         groups                             rgrep
- autoheader                       gsettings                          rlogin
- autom4te                         gtester                            rpcgen
- automake                         gtester-report                     rsh
- automake-1.15                    h2ph                               runcon
- autoreconf                       h2xs                               run-mailcap
- autoscan                         head                               savelog
- autoupdate                       hg                                 scp
- awk                              hg-ssh                             script
- b2sum                            hostid                             scriptreplay
- base32                           i386                               sdiff
- base64                           iconv                              see
- basename                         icu-config                         select-editor
- bashbug                          icuinfo                            sensible-browser
- bzr                              id                                 sensible-editor
- bzr.bzr                          identify                           sensible-pager
- c++                              identify-im6                       seq
- c89                              identify-im6.q16                   setarch
- c89-gcc                          ifnames                            setsid
- c99                              import                             setterm
- c99-gcc                          import-im6                         sftp
- captoinfo                        import-im6.q16                     sg
- catchsegv                        infocmp                            sha1sum
- cautious-launcher                infotocap                          sha224sum
- cc                               install                            sha256sum
- c++filt                          instmodsh                          sha384sum
- chage                            ionice                             sha512sum
- chattr                           ipcmk                              shasum
- chcon                            ipcrm                              shred
- chfn                             ipcs                               shuf
- chrt                             ischroot                           size
- chsh                             join                               skill
- cksum                            json_pp                            slabtop
- clear                            kbxutil                            slogin
- clear_console                    krb5-config                        snice
- cmp                              krb5-config.mit                    sort
- comm                             last                               sotruss
- compare                          lastb                              splain
- compare-im6                      lastlog                            split
- compare-im6.q16                  lcf                                sprof
- compile_et                       ld                                 ssh
- compose                          ld.bfd                             ssh-add
- composite                        ldd                                ssh-agent
- composite-im6                    ld.gold                            ssh-argv0
- composite-im6.q16                less                               ssh-copy-id
- conjure                          lessecho                           ssh-keygen
- conjure-im6                      lessfile                           ssh-keyscan
- conjure-im6.q16                  lesskey                            stat
- convert                          lesspipe                           stdbuf
- convert-im6                      libnetcfg                          stream
- convert-im6.q16                  libpng16-config                    stream-im6
- corelist                         libpng-config                      stream-im6.q16
- cpan                             libtoolize                         strings
- cpan5.26-x86_64-linux-gnu        libwmf-config                      strip
- cpp                              link                               sum
- cpp-7                            linux32                            svn
- c_rehash                         linux64                            svnadmin
- csplit                           locale                             svnauthz
- curl                             locale-check                       svnauthz-validate
- curl-config                      localedef                          svnbench
- cut                              logger                             svndumpfilter
- debconf                          logname                            svnfsfs
- debconf-apt-progress             lsattr                             svnlook
- debconf-communicate              lscpu                              svnmucc
- debconf-copydb                   lsipc                              svnrdump
- debconf-escape                   lslocks                            svnserve
- debconf-set-selections           lslogins                           svnsync
- debconf-show                     lsmem                              svnversion
- deb-systemd-helper               lsns                               symcryptrun
- deb-systemd-invoke               lspgpot                            tabs
- delpart                          lzcat                              tac
- derb                             lzcmp                              tail
- dh_autotools-dev_restoreconfig   lzdiff                             taskset
- dh_autotools-dev_updateconfig    lzegrep                            tee
- dh_python2                       lzfgrep                            test
- diff                             lzgrep                             tic
- diff3                            lzless                             timeout
- dircolors                        lzma                               tload
- dirmngr                          lzmainfo                           toe
- dirmngr-client                   lzmore                             top
- dirname                          m4                                 touch
- display                          make                               tput
- display-im6                      makeconv                           tr
- display-im6.q16                  make-first-existing-target         truncate
- dpkg                             mawk                               tset
- dpkg-architecture                mcookie                            tsort
- dpkg-buildflags                  md5sum                             tty
- dpkg-buildpackage                md5sum.textutils                   tzselect
- dpkg-checkbuilddeps              mesg                               ucf
- dpkg-deb                         migrate-pubring-from-classic-gpg   ucfq
- dpkg-distaddfile                 mkfifo                             ucfr
- dpkg-divert                      mogrify                            uconv
- dpkg-genbuildinfo                mogrify-im6                        unexpand
- dpkg-genchanges                  mogrify-im6.q16                    uniq
- dpkg-gencontrol                  montage                            unlink
- dpkg-gensymbols                  montage-im6                        unlzma
- dpkg-maintscript-helper          montage-im6.q16                    unshare
- dpkg-mergechangelogs             mtrace                             unxz
- dpkg-name                        mysql_config                       unzip
- dpkg-parsechangelog              namei                              unzipsfx
- dpkg-query                       nawk                               update-alternatives
- dpkg-scanpackages                ncurses5-config                    update-mime-database
- dpkg-scansources                 ncursesw5-config                   uptime
- dpkg-shlibdeps                   newgrp                             users
- dpkg-source                      nice                               utmpdump
- dpkg-split                       nl                                 vmstat
- dpkg-statoverride                nm                                 w
- dpkg-trigger                     node                               wall
- dpkg-vendor                      nodejs                             watch
- du                               nohup                              watchgnupg
- dwp                              npm                                wc
- edit                             nproc                              wget
- elfedit                          npx                                whereis
- enc2xs                           nsenter                            which
- encguess                         numfmt                             who
- env                              objcopy                            whoami
- expand                           objdump                            w.procps
- expiry                           od                                 X11
- expr                             openssl                            x86_64
- factor                           pager                              x86_64-linux-gnu-addr2line
- faillog                          partx                              x86_64-linux-gnu-ar
- fallocate                        passwd                             x86_64-linux-gnu-as
- fc-cache                         paste                              x86_64-linux-gnu-c++filt
- fc-cat                           patch                              x86_64-linux-gnu-cpp
- fc-list                          pathchk                            x86_64-linux-gnu-cpp-7
- fc-match                         pcre-config                        x86_64-linux-gnu-dwp
- fc-pattern                       pdb                                x86_64-linux-gnu-elfedit
- fc-query                         pdb2.7                             x86_64-linux-gnu-g++
- fc-scan                          pdb3                               x86_64-linux-gnu-g++-7
- fc-validate                      pdb3.6                             x86_64-linux-gnu-gcc
- file                             perl                               x86_64-linux-gnu-gcc-7
- find                             perl5.26.1                         x86_64-linux-gnu-gcc-ar
- flock                            perl5.26-x86_64-linux-gnu          x86_64-linux-gnu-gcc-ar-7
- fmt                              perlbug                            x86_64-linux-gnu-gcc-nm
- fold                             perldoc                            x86_64-linux-gnu-gcc-nm-7
- free                             perlivp                            x86_64-linux-gnu-gcc-ranlib
- freetype-config                  perlthanks                         x86_64-linux-gnu-gcc-ranlib-7
- funzip                           pg_config                          x86_64-linux-gnu-gcov
- g++                              pgrep                              x86_64-linux-gnu-gcov-7
- g++-7                            piconv                             x86_64-linux-gnu-gcov-dump
- gapplication                     pinentry                           x86_64-linux-gnu-gcov-dump-7
- gcc                              pinentry-curses                    x86_64-linux-gnu-gcov-tool
- gcc-7                            pinky                              x86_64-linux-gnu-gcov-tool-7
- gcc-ar                           pkg-config                         x86_64-linux-gnu-gold
- gcc-ar-7                         pkgdata                            x86_64-linux-gnu-gprof
- gcc-nm                           pkill                              x86_64-linux-gnu-ld
- gcc-nm-7                         pl2pm                              x86_64-linux-gnu-ld.bfd
- gcc-ranlib                       pldd                               x86_64-linux-gnu-ld.gold
- gcc-ranlib-7                     pmap                               x86_64-linux-gnu-nm
- gcov                             pod2html                           x86_64-linux-gnu-objcopy
- gcov-7                           pod2man                            x86_64-linux-gnu-objdump
- gcov-dump                        pod2text                           x86_64-linux-gnu-pkg-config
- gcov-dump-7                      pod2usage                          x86_64-linux-gnu-ranlib
- gcov-tool                        podchecker                         x86_64-linux-gnu-readelf
- gcov-tool-7                      podselect                          x86_64-linux-gnu-size
- gdbus                            pr                                 x86_64-linux-gnu-strings
- gdbus-codegen                    print                              x86_64-linux-gnu-strip
- gdk-pixbuf-csource               printenv                           x86_64-pc-linux-gnu-pkg-config
- gdk-pixbuf-pixdata               printf                             xargs
- gdk-pixbuf-query-loaders         prlimit                            xml2-config
- genbrk                           prove                              xslt-config
- gencat                           ptar                               xsubpp
- gencfu                           ptardiff                           xz
- gencnval                         ptargrep                           xzcat
- gendict                          ptx                                xzcmp
- genrb                            pwdx                               xzdiff
- getconf                          py3clean                           xzegrep
- getent                           py3compile                         xzfgrep
- getopt                           py3versions                        xzgrep
- gio                              pyclean                            xzless
- gio-querymodules                 pycompile                          xzmore
- git                              pydoc                              yes
- git-receive-pack                 pydoc2.7                           zdump
- git-shell                        pydoc3                             zipdetails
- git-upload-archive               pydoc3.6                           zipgrep
- git-upload-pack                  pygettext                          zipinfo
- glib-compile-resources           pygettext2.7
-jovyan@jupyter-valhuber-2dapilogicservertutorial-2dp16pn4zt:/usr/bin$
 
 Suggested
 
@@ -249,25 +24,39 @@ https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/ec186fe
 
 or proxy:5000, or no proxy
 
-curl -X GET "http://localhost:5000/Customer/?include=CustomerCustomerDemoList%2COrderList%2COrderZList&fields%5BCustomer%5D=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount&page%5Boffset%5D=0&page%5Blimit%5D=10&sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid" -H  "accept: application/vnd.api+json" -H  "Content-Type: application/vnd.api+json"
 
-curl -X GET "http://localhost:5000/Customer\
-?fields%5BCustomer%5D=Id%2CCompanyName%Balance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount\
+
+ curl -X GET "http://localhost:5000/Order\
+ ?fields%5BOrder%5D=Id%2CCustomerId%2CEmployeeId%2COrderDate%2CAmountTotal\
+ &page%5Boffset%5D=0\
+ &page%5Blimit%5D=2\
+ &sort=Id%2CCustomerId%2CEmployeeId\
+ &filter%5BCustomerId%5D=ALFKI"\
+  -H  "accept: application/vnd.api+json" \
+  -H  "Content-Type: application/vnd.api+json"
+
+curl -X GET "http://localhost:5000/Order\
+?include=\
+&fields%5BOrder%5D=Id%2CCustomerId%2CEmployeeId%2COrderDate%2CAmountTotal\
 &page%5Boffset%5D=0\
-&page%5Blimit%5D=3\
-&sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid"\
+&page%5Blimit%5D=2\
+&sort=Id%2CCustomerId%2CEmployeeId\
+&filter%5BCustomerId%5D=ALFKI"\
  -H  "accept: application/vnd.api+json" \
  -H  "Content-Type: application/vnd.api+json"
 
-curl -X GET "http://localhost:5000/Customer\
-?include=OrderList\
-&fields%5BCustomer%5D=Id%2CCompanyName%Balance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount\
-&page%5Boffset%5D=0\
-&page%5Blimit%5D=3\
-&sort=Id%2CCompanyName%2CContactName%2CContactTitle%2CAddress%2CCity%2CRegion%2CPostalCode%2CCountry%2CPhone%2CFax%2CBalance%2CCreditLimit%2COrderCount%2CUnpaidOrderCount%2Cid"\
- -H  "accept: application/vnd.api+json" \
- -H  "Content-Type: application/vnd.api+json"
 
+curl -X GET "http://localhost:5000/hello_world\
+?user=ApiLogicServer\
+  -H  "accept: application/vnd.api+json" \
+  -H  "Content-Type: application/vnd.api+json"
+
+curl -X GET "http://localhost:5000/hello_world?user=ApiLogicServer"
+
+  -H  "accept: application/vnd.api+json" \
+  -H  "Content-Type: application/vnd.api+json"
+
+  http://localhost:5000/hello_world?user=ApiLogicServer
 
  startup??
   https://github.com/jupyterlab/jupyterlab-demo/tree/master/binder
