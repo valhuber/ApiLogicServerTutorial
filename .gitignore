@@ -1,0 +1,8 @@
+.DS_Store
+/build/
+/dist/
+**/__pycache__
+*.egg-info
+venv/
+/api_logic_server/
+/..ipynb_checkpoints/
