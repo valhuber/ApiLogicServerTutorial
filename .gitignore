@@ -5,4 +5,4 @@
 *.egg-info
 venv/
 /api_logic_server/
-/..ipynb_checkpoints/
+.ipynb_checkpoints/** .ipynb_checkpoints/**/*
