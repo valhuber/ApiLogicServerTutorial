@@ -1,6 +1,9 @@
 No pre-open
   https://github.com/jupyterlab/jupyterlab/issues/9795
 
+binder undoes requirements
+  https://github.com/jupyterlab/jupyterlab/issues/9796
+
 No Browser access to proxy
 
 
