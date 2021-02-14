@@ -10,6 +10,9 @@ Intended for mybinder:
 1. Click the Binder logo
 2. Open the notebook
 
+<figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/tutorial/MyBinder Initial.png?raw=true"></figure>
+
+
 To run the notebool locally:
 ```
 git clone https://github.com/valhuber/ApiLogicServerTutorial.git
