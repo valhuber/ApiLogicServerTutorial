@@ -8,6 +8,7 @@ Under Construction
 
 Intended for mybinder:
 1. Click the Binder logo
+   * In about 15 seconds, a JupyterLab should open
 2. Open the notebook
 
 <figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/tutorial/notebook-workspace.png?raw=true"></figure>
