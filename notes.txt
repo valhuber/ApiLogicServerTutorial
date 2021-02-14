@@ -6,6 +6,21 @@ binder undoes requirements
 
 No Browser access to proxy
 
+{
+  "data": {
+    "attributes": {
+      "CustomerId": "ALFKI",
+      "OrderDetailList": [
+        {
+          "Product_Id": 1,
+          "Quantity": 1
+        }
+      ]
+    },
+    "type": "Order"
+  }
+}
+
 
 Suggested
 
