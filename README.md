@@ -12,7 +12,7 @@ Use **MyBinder** to avoid any local install:
    * In about 15 seconds, a JupyterLab should open
 2. Open the notebook, and follow the remaining instructions to configure your workspace
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/tutorial/MyBinder-initial.png?raw=true"></figure>
+<figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/tutorial/MyBinder-Initial.png?raw=true"></figure>
 
 
 # Local Install
