@@ -19,7 +19,7 @@ To run the notebool locally:
 git clone https://github.com/valhuber/ApiLogicServerTutorial.git
 cd ApiLogicServerTutorial
 virtualenv venv
-source venv/bin/activate
+source venv/bin/activate   # windows venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab
 ```
