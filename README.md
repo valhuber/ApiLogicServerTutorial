@@ -2,8 +2,16 @@
 
 [![Binder](http://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD?urlpath=lab)
 
-Jupyter Lab Notebook for [API Logic Server](https://github.com/valhuber/ApiLogicServer#readme).  You can run either
-via MyBinder or local install, as described below.
+There is widespread agreement that APIs are strategic to the business, required for mobile apps and internal / external systems integration.
+
+The problem is that they are time-consuming and costly to develop. This reduces strategic business agility.  At the tactical level, UI development can be delayed while awaiting API coding.
+
+> API Logic Server provides strategic business agility, by creating an executable server for a database.
+Instead of weeks to months, follow this 10-20 minute Tutorial to **create**, **explore** and **customize** 
+the 3 main elements of an [API Logic Server](https://github.com/valhuber/ApiLogicServer#readme):
+1. A JSON:**API** for a database
+1. Business **Logic**
+1. A Basic Web App
 
 # MyBinder - no local install
 
