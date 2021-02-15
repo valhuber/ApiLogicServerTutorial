@@ -9,7 +9,7 @@ via MyBinder or local install, as described below.
 
 Use **MyBinder** to avoid any local install:
 1. Click the Binder logo
-   * In about 15 seconds, a JupyterLab should open
+   * In about 15 seconds, a JupyterLab should open (see below)
 2. Double Click as shown below to open the notebook, and follow the remaining instructions to configure your workspace
 
 <figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/tutorial/MyBinder-Initial.png?raw=true"></figure>
