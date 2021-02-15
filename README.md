@@ -21,10 +21,9 @@ You can run it either:
 See the instructions for both options, below.
 
 # MyBinder - no local install
-[![Binder](http://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD?urlpath=lab)
 
 Use **MyBinder** to avoid any local install:
-1. Click the Binder logo (image above)
+1. Click the Binder logo:
 [![Binder](http://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD?urlpath=lab)
 
    * In about 15 seconds, a JupyterLab should open (see below)
