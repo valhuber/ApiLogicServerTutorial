@@ -8,7 +8,7 @@ via MyBinder or local install, as described below.
 # MyBinder - no local install
 
 Use **MyBinder** to avoid any local install:
-1. Click the Binder logo
+1. Click the Binder logo (image above)
    * In about 15 seconds, a JupyterLab should open (see below)
 2. Double Click as shown below to open the notebook, and follow the remaining instructions to configure your workspace
 
