@@ -9,9 +9,9 @@ The problem is that they are time-consuming and costly to develop. This reduces 
 API Logic Server provides strategic business agility, by creating an executable server for a database.
 Instead of weeks to months, follow this 10-20 minute Tutorial to **create**, **explore** and **customize** 
 the 3 main elements of an API Logic Server:
-1. A JSON:**API** for a database
-1. Business **Logic**
-1. A Basic Web App
+1. A JSON:**API** for a database, with Open API (Swagger)
+1. Business **Logic**, using a combination of spreadsheet like rules and Python
+1. A Basic Web App - multi-page, multi-table, with intelligent joins and layouts
 
 This project is a Jupyter notebook for the [API Logic Server](https://github.com/valhuber/ApiLogicServer#readme).
 You can run it either:
