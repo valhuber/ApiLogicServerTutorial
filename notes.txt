@@ -1,10 +1,29 @@
-No pre-open
-  https://github.com/jupyterlab/jupyterlab/issues/9795
-
 binder undoes requirements
   https://github.com/jupyterlab/jupyterlab/issues/9796
 
+No pre-open
+  https://github.com/jupyterlab/jupyterlab/issues/9795
+
 No Browser access to proxy - category of Binder (/ Jupyterhub?)
+
+
+ERROR: After October 2020 you may experience errors when installing or updating packages. This is because pip will change the way that it resolves dependency conflicts.
+
+We recommend you use --use-feature=2020-resolver to test your packages with the new resolver before it becomes the default.
+
+requests 2.25.1 requires idna<3,>=2.5, but you'll have idna 3.1 which is incompatible.
+
+curl -X POST "http://localhost:5000/Order/" -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json" -d "\
+{  \"data\": {    \"attributes\": {\
+      \"CustomerId\": \"ALFKI\",\
+      \"EmployeeId\": 1,\
+      \"Freight\": 10,\
+      \"OrderDetailList\": [ {\
+           \"ProductId\": 1,\
+           \"Quantity\": 1 \
+       }      ]    },\
+      \"type\": \"Order\"  }\
+}"
 
 {
   "data": {
