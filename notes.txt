@@ -13,16 +13,39 @@ We recommend you use --use-feature=2020-resolver to test your packages with the 
 
 requests 2.25.1 requires idna<3,>=2.5, but you'll have idna 3.1 which is incompatible.
 
+curl -X POST "http://localhost:5000/Order/"\
+ -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json"\
+ -d "\
+{  \"data\": {\
+      \"attributes\": {\
+         \"CustomerId\": \"ALFKI\",\
+         \"EmployeeId\": 1,\
+         \"Freight\": 10},\
+      \"relationships\": {\
+         \"OrderDetailList\": \
+            [ {\
+                \"ProductId\": 1,\
+                \"Quantity\": 1 \
+              } ]\
+    },\
+  \"type\": \"Order\"\
+  }\
+}"
+
+
 curl -X POST "http://localhost:5000/Order/" -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json" -d "\
-{  \"data\": {    \"attributes\": {\
-      \"CustomerId\": \"ALFKI\",\
-      \"EmployeeId\": 1,\
-      \"Freight\": 10,\
-      \"OrderDetailList\": [ {\
-           \"ProductId\": 1,\
-           \"Quantity\": 1 \
-       }      ]    },\
-      \"type\": \"Order\"  }\
+{  \"data\":\
+  {\
+      \"attributes\": {\
+        \"CustomerId\": \"ALFKI\",\
+        \"EmployeeId\": 1,\
+        \"Freight\": 10,\
+        \"OrderDetailList\": [ {\
+             \"ProductId\": 1,\
+             \"Quantity\": 1 \
+             }      ]    },\
+      \"type\": \"Order\"\
+  }\
 }"
 
 {
