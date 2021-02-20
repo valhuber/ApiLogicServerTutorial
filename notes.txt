@@ -5,6 +5,9 @@ No pre-open
   https://github.com/jupyterlab/jupyterlab/issues/9795
 
 No Browser access to proxy - category of Binder (/ Jupyterhub?)
+  https://github.com/jupyterhub/mybinder.org-deploy/issues/1842
+
+https://notebooks.gesis.org/binder/v2/gh/valhuber/ApiLogicServerTutorial/HEAD?urlpath=lab
 
 
 ERROR: After October 2020 you may experience errors when installing or updating packages. This is because pip will change the way that it resolves dependency conflicts.
@@ -12,6 +15,9 @@ ERROR: After October 2020 you may experience errors when installing or updating 
 We recommend you use --use-feature=2020-resolver to test your packages with the new resolver before it becomes the default.
 
 requests 2.25.1 requires idna<3,>=2.5, but you'll have idna 3.1 which is incompatible.
+
+
+per https://github.com/json-api/json-api/issues/1089 -- list += data tag?
 
 curl -X POST "http://localhost:5000/Order/"\
  -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json"\
@@ -25,6 +31,33 @@ curl -X POST "http://localhost:5000/Order/"\
          \"OrderDetailList\": \
             [ {\
                 \"ProductId\": 1,\
+                \"Quantity\": 1 \
+              } ]\
+    },\
+  \"type\": \"Order\"\
+  }\
+}"
+
+
+thinking about for lookup
+
+curl -X POST "http://localhost:5000/Order/"\
+ -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json"\
+ -d "\
+{  \"data\": {\
+      \"attributes\": {\
+         \"CustomerId\": \"ALFKI\",\
+         \"EmployeeId\": 1,\
+         \"Freight\": 10},\
+      \"relationships\": {\
+         \"OrderDetailList\": \
+            [ {\
+                \"ProductId\": 1,\
+                \"relationships\": {\  # how to signal lookup vs post
+                  \"Product\":\
+                    {\
+                      \"ProductName\": "Bolt"\
+                    }
                 \"Quantity\": 1 \
               } ]\
     },\
@@ -100,7 +133,7 @@ or proxy:5000, or no proxy
  &page%5Boffset%5D=0\
  &page%5Blimit%5D=2\
  &sort=Id%2CCustomerId%2CEmployeeId\
- &filter%5BCustomerId%5D=ALFKI"\
+ &filter%5BCustomerId%5D=ALFKI\
   -H  "accept: application/vnd.api+json" \
   -H  "Content-Type: application/vnd.api+json"
 
