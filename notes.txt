@@ -38,6 +38,183 @@ curl -X POST "http://localhost:5000/Order/"\
   }\
 }"
 
+curl -X POST "http://localhost:5000/Order/"\
+ -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json"\
+ -d "\
+{  \"data\": {\
+      \"attributes\": {\
+         \"CustomerId\": \"ALFKI\",\
+         \"EmployeeId\": 1,\
+         \"Freight\": 10},\
+      \"relationships\": {\
+         \"OrderDetailList\": \
+            { \"data\": {\
+              [ {\
+                  \"ProductId\": 1,\
+                  \"Quantity\": 1 \
+                } ]\
+            }\
+    },\
+  \"type\": \"Order\"\
+  }\
+}"
+
+Thomas example:
+curl -X POST "http://localhost:5000/api/Books/" -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json" -d '{
+  "data": {
+    "attributes": {
+        "title": "test"
+    },
+    "relationships": {
+      "reader": {
+        "data": {
+          "id": null,
+          "type": "Person",
+          "attributes": {
+            "name": "boo"
+          }
+        }
+      }
+    },
+    "type": "Book",
+    "id": "0b22014c-bcb7-4d89-9851-9d99bca16590"
+  }
+}'
+
+so...
+
+{
+  "data": {
+    "attributes": {
+      "CustomerId": "ALFKI",
+      "EmployeeId": 1,
+      "Freight": "10"
+    },
+    "relationships": {
+      "OrderDetailList": [
+        {
+          "data": {
+            "id": null,
+            "type": "OrderDetail",
+            "attributes": [
+              {
+                "ProductId": 1,
+                "Quantity": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "type": "Order"
+  }
+}
+
+he skypes:
+{
+  "data": {
+    "attributes": {
+      "CustomerId": "ALFKI",
+      "EmployeeId": 1,
+      "Freight": "10"
+    },
+    "relationships": {
+      "OrderDetailList": [{
+        "data": {
+          "id": null,
+          "type": "OrderDetail"
+
+        }
+      }]
+    },
+    "type": "Order"
+  }
+}
+ and then
+
+ {
+  "data": {
+    "attributes": {
+      "CustomerId": "ALFKI",
+      "EmployeeId": 1,
+      "Freight": "10"
+    },
+    "relationships": {
+      "OrderDetailList": {
+        "data": [
+          {
+            "id": null,
+            "type": "OrderDetail",
+            "attributes" : {"ProductId": 1,"Quantity": 1}
+          }
+        ]
+      }
+    },
+    "type": "Order"
+  }
+}
+
+===> no attribute: ShippedDate
+
+rpc:
+
+{
+  "meta": {
+    "method": "add_order",
+    "args": {
+      "date": "ccc",
+      "OrderDetailList": [
+         {"product": "hammer", "qty": 2},
+         {"product": "shovel", "qty": 3},
+       ]
+    }
+  }
+}
+
+
+        """ POST to Order/add_order
+        {
+            "meta": {
+                "method": "add_order",
+                "args": {
+                  "EmployeeId": 6,
+                  "Freight": 10,
+                  "OrderDetailList": [
+                     {"ProductId": 1, "qty": 2},
+                     {"ProductId": 2, "qty": 3}
+                  ]
+                }
+            }
+        }
+        """
+
+
+curl -X POST "http://localhost:5000/Order/" -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json" -d "{  \"data\": {    \"attributes\": {      \"CustomerId\": \"ALFKI\",      \"EmployeeId\": 1,      \"Freight\": \"10\"    },    \"relationships\": {      \"OrderDetailList\": [{        \"data\": {          \"id\": null,          \"type\": \"OrderDetail\"                  }      }]    },    \"type\": \"Order\"  }}"
+
+curl -X POST "http://localhost:5000/Order/"\
+ -H  "accept: application/vnd.api+json" -H  "Content-Type: application/json"\
+ -d "\
+{  \"data\": {\
+      \"attributes\": {\
+         \"CustomerId\": \"ALFKI\",\
+         \"EmployeeId\": 1,\
+         \"Freight\": 10},\
+      \"relationships\": {\
+         \"OrderDetailList\": {\
+            \"data\": {\
+              \"id\": null,\
+              \"type\": "\OrderDetail\",
+              \"attributes\":\
+                [ {\
+                    \"ProductId\": 1,\
+                    \"Quantity\": 1 \
+                  } ]\
+            }\
+        }\
+    }\
+  \"type\": \"Order\"\
+  }\
+}"
 
 thinking about for lookup
 
@@ -105,6 +282,38 @@ curl -X POST "http://localhost:5000/Order/" -H  "accept: application/vnd.api+jso
     "id": "1"
   }
 }
+
+
+Thomas mail 2/25
+{
+  "data": {
+    "attributes": {
+      "CustomerId": "ALFKI",
+      "EmployeeId": 1,
+      "Freight": 10
+    },
+    "relationships": {
+      "OrderDetailList": {
+        "data": [
+          {
+            "type": "OrderDetail",
+            "ProductId": 1,
+            "Quantity": 1,
+            "Discount": 0
+          },
+          {
+            "type": "OrderDetail",
+            "ProductId": 2,
+            "Quantity": 2,
+            "Discount": 0
+          }
+        ]
+      }
+    },
+    "type": "Order"
+  }
+}
+
 
 Suggested
 
