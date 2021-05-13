@@ -1,4 +1,8 @@
 https://towardsdatascience.com/deploy-your-jupyter-notebooks-the-easy-way-python-edition-f831400c1905
+    https://mybinder.org/
+    https://github.com/valhuber/ApiLogicServerTutorial.git
+    ==> https://mybinder.org/v2/gh/valhuber/ApiLogicServer.git/HEAD
+    https://mybinder.org/v2/gh/valhuber/ApiLogicServerTutorial/569e4750e19e90c0d1ab8945c6bcefa819ed29b0
 
 binder undoes requirements
   https://github.com/jupyterlab/jupyterlab/issues/9796
